@@ -21,7 +21,6 @@ function expandCard(index) {
   let cards = container.querySelectorAll(".card");
 
   if (expandedIndex === index) {
-  // Já está expandido, então desfaz
   cards.forEach(card => {
     card.classList.remove("expanded");
     card.style.display = "block";
@@ -48,6 +47,6 @@ function expandCard(index) {
   expandedIndex = index;
 }
 
-  }
+}
 
 

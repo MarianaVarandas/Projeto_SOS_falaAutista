@@ -1,4 +1,5 @@
-/* Reset básico */
+/*Os comentários a seguir foram colocados pra eu me orientar em momentos de necessidade de ajustes*/
+/* restaurar básico*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +9,7 @@
 /* Fundo da página */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #fff8dc; /* bege claro */
+  background-color: #fff8dc; 
   color: #000;
   padding: 20px;
 }
@@ -79,7 +80,7 @@ button:hover {
   background-color: #d17d00;
 }
 
-/* Imagem decorativa do rodapé */
+/* Favicon voz autista */
 .decoracao-baixo {
   width: 100%;
   margin: 20px 0 10px;
@@ -146,7 +147,7 @@ h1 strong {
   cursor: pointer;
   transition: transform 0.2s;
   width: 100%;
-  max-width: 320px; /* define largura padrão para todos */
+  max-width: 320px; 
 }
 
 
@@ -192,7 +193,7 @@ h1 strong {
   min-height: 200px;
   font-size: 20px;
   padding: 24px;
-  white-space: pre-wrap; /* respeita quebras de linha */
+  white-space: pre-wrap; 
   line-height: 1.5;
 }
 
