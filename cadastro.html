@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SOS Fala, autista!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="img/Header.png" alt="Cabeçalho SOS Fala, autista!" class="header-img">
+
+    <form id="formCadastro">
+      <label for="nomeAutista">Seu nome:</label>
+      <input type="text" id="nomeAutista" required>
+
+      <label for="nomeContato">Nome do seu contato de emergência:</label>
+      <input type="text" id="nomeContato" required>
+
+      <label for="telefoneContato">Telefone do contato de emergência:</label>
+      <input type="tel" id="telefoneContato" placeholder="(11) 99999-9999"  pattern="\(\d{2}\) \d{4,5}-\d{4}" 
+  title="Digite no formato (11) 99999-9999" required>
+
+      <button type="submit">ENVIAR</button>
+    </form>
+
+    <img src="img/ondas.png" alt="Voz Autista" class="decoracao-baixo">
+    <a href="sobre.html" class="link-saiba-mais">Saiba mais desse projeto</a>
+  </div>
+  <script src="cadastro.js"></script>
+</body>
+</html>
+

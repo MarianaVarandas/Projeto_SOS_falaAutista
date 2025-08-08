@@ -1,0 +1,198 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fundo da página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff8dc; /* bege claro */
+  color: #000;
+  padding: 20px;
+}
+
+/* Container geral */
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Imagem de cabeçalho */
+.header-img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.decoracao-baixo {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+/* Formulário */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Campos de entrada */
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Botão de envio */
+button {
+  background-color: #f29c2b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+  width: 120px;
+}
+
+button:hover {
+  background-color: #d17d00;
+}
+
+/* Imagem decorativa do rodapé */
+.decoracao-baixo {
+  width: 100%;
+  margin: 20px 0 10px;
+}
+
+/* Link "saiba mais" */
+.link-saiba-mais {
+  display: block;
+  font-size: 14px;
+  color: black;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+  background-color: #fef6dc;
+  color: #3c2a4d;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.megafone {
+  width: 120px;
+  margin: 20px auto;
+  display: block;
+}
+
+h1 span {
+  color: #8224e3;
+  font-size: 24px;
+}
+
+h1 strong {
+  color: #8224e3;
+  font-size: 32px;
+}
+
+.welcome {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ec932b;
+  border: none;
+  border-radius: 25px;
+  padding: 18px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 100%;
+  max-width: 320px; /* define largura padrão para todos */
+}
+
+
+.card:active {
+  transform: scale(1.1);
+}
+
+.expanded-card {
+  background-color: #ec932b;
+  color: white;
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  white-space: pre-line;
+  width:fit-content;
+}
+
+.expanded-card .call-button {
+  margin-top: 20px;
+  background-color: #5b2b7d;
+  color: white;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer-link {
+  display: block;
+  margin-top: 40px;
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.card.expanded {
+  min-height: 200px;
+  font-size: 20px;
+  padding: 24px;
+  white-space: pre-wrap; /* respeita quebras de linha */
+  line-height: 1.5;
+}
+

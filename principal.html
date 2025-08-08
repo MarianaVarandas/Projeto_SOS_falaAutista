@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+  <title>SOS - Fala, Autista!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="img/Header.png" alt="Cabeçalho SOS Fala, autista!" class="header-img">
+    <p class="welcome">Olá, meu nome é <span id="nomeAutista"> </span> :) </p>
+
+    <div id="cardsContainer" class="cards-container">
+      <button class="card" onclick="expandCard(0)">
+        Chamar contato de emergência
+      </button>
+      <button class="card" onclick="expandCard(1)">
+        Não interaja comigo
+      </button>
+      <button class="card" onclick="expandCard(2)">
+        Me leve para outro lugar
+      </button>
+      <button class="card" onclick="expandCard(3)">
+        Estou bem!
+      </button>
+    </div>
+
+    <div id="expandedCard" class="expanded-card hidden"></div>
+
+    <a href="sobre.html" class="footer-link">Saiba mais desse projeto</a>
+    <img src="img/ondas.png" alt="Voz Autista" class="decoracao-baixo">
+  </div>
+  <script src="principal.js"></script>
+
+</body>
+</html>
