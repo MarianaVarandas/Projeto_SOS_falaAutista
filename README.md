@@ -3,6 +3,8 @@
 Esse projeto foi criado como resposta a uma questão muito trazida dentro dos encontros do "Fala, autista!": a dificuldade que nós, adultos autistas, sentimos em manter nossa autonomia quando estamos em sobrecarga ou crise fora de casa.
 É um primeiro piloto desta solução e está em fase de testes e melhorias. Caso você ainda não conheça o projeto Voz Autista - também criado por mim e dentro do qual estão localizados os encontros do "Fala, autista!" - conheça nosso site: https://vozautista.com/.
 
+Você pode testar o dispositivo implementado no seguinte link: https://projeto-sos-fala-autista.vercel.app/
+
 ## 🧠 Sobre o projeto
 
 **SOS Fala, Autista!** é uma página web desenvolvida com HTML, CSS e JavaScript puros, voltada para auxiliar autistas em momentos de sobrecarga sensorial ou crises, permitindo comunicação básica por meio de botões visuais e mensagens faladas. 
@@ -35,6 +37,7 @@ O autista deverá se cadastrar na página com antecedência e deixá-la salva pa
 - CSS3
 - JavaScript
 - [responsiveVoice.js](https://responsivevoice.org/) (API pública para TTS)
+- Vercel (deploy)
 
 ## ⚠️ Aviso
 
