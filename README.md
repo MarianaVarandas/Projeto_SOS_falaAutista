@@ -21,7 +21,7 @@ O autista deverá se cadastrar na página com antecedência e deixá-la salva pa
 
 ## 🚀 Como usar
 
-1. **Abrir o arquivo `index.html`** no navegador.
+1. **Acessar a página: https://projeto-sos-fala-autista.vercel.app/** no navegador.
 2. Preencher com:
    - Seu nome
    - Nome e telefone do seu contato de emergência
@@ -34,7 +34,7 @@ O autista deverá se cadastrar na página com antecedência e deixá-la salva pa
 ## 🧩 Tecnologias
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 - [responsiveVoice.js](https://responsivevoice.org/) (API pública para TTS)
 - Vercel (deploy)
